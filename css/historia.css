@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 8px;
+}
+.menu-principal{
+    background-color: rgb(59, 49, 39);
+    text-decoration: none;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+header div a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+header div a span{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-family:Roboto, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+.logo {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.logo img{
+    display: flex;
+    margin-top: -18px;
+    padding-right: 35px;
+}
+.nav-list{
+    text-decoration: none;
+    float: right;
+    display: flex;
+    list-style: none;
+    margin-top: -7.5vh;
+    margin-right: 60px ;
+}
+.nav-list a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 15px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+.nav-list a:hover{
+    border-bottom: 3px solid #F2E2CE;
+}
+
+.nav-list li:hover{
+    padding-top: 1vh;
+}
+.nav-list.active {
+    transform: translateX(42%);
+}
+.img-principal img{
+    height: 120vh;
+    width: 100%;
+    background-position: center;
+}
+
+
+.container{
+    height: 2170vh;
+    width: 100%;
+    background-color: rgb(248, 238, 220);
+}
+
+.hist{
+    background-color: rgb(248, 242, 231);
+    height: 2170vh;
+    width: 90%;
+    margin-left: 5%;
+    font-family: "Satisfy";
+    margin-bottom: 20vh;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 10px rgba(107, 107, 107, 0.20);
+}
+
+button{
+    position: fixed;
+    margin-top: 10vh;
+    margin-left: 88%;
+    width: 5%;
+    border: none;
+    background-color: rgb(78, 65, 52);
+    border-radius: 10px 0px 0px 10px;
+    color: #ffffff;
+}
+  
+  
+#voltarT{
+    height: 8vh;
+    cursor: pointer;
+}
+  
+/*----IMGS----*/
+.linhah{
+    background-color: #554c41;
+    height: 2px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    opacity: 0.5;
+}
+
+.imgUm{
+    height: 20vh;
+    margin-left: 28%;
+}
+
+.imgDois{
+    height: 35vh;
+    margin-left: 34%;
+}
+
+.imgTres{
+    height: 45vh;
+    margin-left: 28%;
+}
+
+.imgQuatro{
+    height: 35vh;
+    margin-left: 20%;
+}
+
+.imgQuinta{
+    height: 35vh;
+}
+
+.imgSeis{
+    height: 50vh;
+    margin-left: 20%;
+}
+
+.imgSete{
+    height: 50vh;
+    margin-left: 2%;
+}
+
+.imgOito{
+    height: 50vh;
+    margin-left: 20%;
+}
+
+.imgNove{
+    height: 50vh;
+    margin-left: 25%;
+}
+
+.imgDez{
+    height: 40vh;
+    width: 42.5%;
+    margin-left: 25%;
+
+}
+
+.imgDPrimeira{
+    height: 25vh;
+    margin-left: 27.5%;
+    width: 21.5%;
+    
+}
+
+.imgDSegunda{
+    height: 25vh;
+    width: 20.7%;
+    
+}
+.imp{
+    margin-left: 2.5%;
+}
+
+.imgDTerceira{
+    height: 50vh;
+    margin-left: 28%;
+}
+
+.imgDQuarta{
+    height: 30vh;
+}
+
+.imgDQuinta{
+    height: 30vh;
+    margin-left: 25%;
+    width: 142%;
+}
+
+.imgDSexta{
+    height: 30vh;
+    width: 125%;
+  
+}
+
+.imgDSetima{
+    height: 30vh;
+    margin-left: 28%;
+
+   
+}
+
+.imgDOitava{
+    height: 40vh;
+    margin-left: 28%;
+}
+
+.imgDNona{
+    margin-left: 25%;
+}
+
+.img19{
+    margin-left: 25%;
+}
+
+.img20{
+    margin-left: 25%;
+}
+.img21{
+    margin-left: 18%;
+}
+
+
+.imgcont{
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 50%;
+  
+    row-gap: 1vh;
+    margin-left: 20%;
+    margin-bottom: 10vh;
+}
+/*---texto---*/
+.sinopse p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    width: 90%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.sinopse h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    width: 90%;
+    text-align: center;
+    margin-left: 4%;
+    margin-bottom: 5vh;
+}
+
+.sinopse h3{
+    padding-top: 3vh;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 90%;
+    
+    margin-left: 5%;
+}
+
+.tit{
+    text-align: center;
+}
+
+.hist h2{
+    padding-top: 9vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5vh;
+	font-weight: normal;
+    color: #312222;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding-top: 16vh;
+    font-family: "Satisfy";
+    margin-bottom: 3vh;
+    font-size: 7vh;
+	font-weight: normal;
+    color: #312222;
+}

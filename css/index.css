@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+*{
+   margin: 0px;padding: 0px;box-sizing: border-box;
+}
+/*----------menu e imagem inicial----------*/
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 7px;
+}
+.menu-principal{
+    background-color: rgb(59, 49, 39);
+    text-decoration: none;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+header div a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+header div a span{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-family:Roboto, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+.logo {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.logo img{
+    display: flex;
+    margin-top: -18px;
+    padding-right: 35px;
+}
+.nav-list{
+    text-decoration: none;
+    float: right;
+    display: flex;
+    list-style: none;
+    margin-top: -6.5vh;
+    margin-right: 60px ;
+}
+.nav-list a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 15px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+.nav-list a:hover{
+    border-bottom: 3px solid #F2E2CE;
+}
+
+.nav-list li:hover{
+    padding-top: 1vh;
+}
+.nav-list.active {
+    transform: translateX(42%);
+}
+.img-principal img{
+    height: 120vh;
+    width: 100%;
+    background-position: center;
+}
+/*----------menu e imagem inicial----------*/
+/*-------Main-sobre o projeto--------*/
+main section.sobre-projeto{
+    margin-top: -5px;
+    height: 75vh;
+    background-color: #ebe1d5;
+}
+main section.sobre-projeto h1{
+    text-align: center;
+    padding: 50px;
+    font-family:"Satisfy";
+    font-weight: normal;
+    font-size: 8vh;
+    color: rgb(59, 49, 39);
+}
+main section.sobre-projeto p{
+    text-align: center;
+    font-family:"Roboto Condensed";
+    font-weight: normal;
+    font-size: 20px;
+    color: #292929;
+    width: 60vw;
+    margin-left: 20%;
+}
+.sobre-projeto img{
+    margin-left: 30%;
+    height: 14vh;
+}
+.sobre-projeto button{
+    height: 6vh;
+    width: 10%;
+    margin-left: 70%;
+    border: none;
+    margin-top: 4vh;
+    background-color: #F2E2CE;
+}
+.sobre-projeto button a{
+    font-weight: bold;
+    text-decoration: none;  
+    color: #585858;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.sobre-projeto button:hover{
+    border-bottom: 3px solid #4b4b4b ;
+}
+/*-------Fim Main-sobre o projeto--------*/
+/*-------Main-tópicos históricos--------*/
+main section.topicos-historicos{
+    height: 75vh;
+    width: 100%;
+    background-color: rgb(59, 49, 39);
+    
+}
+
+
+.topicos-historicos h1{
+    text-align: center;
+    font-family:"Satisfy";
+    font-weight: normal;
+    font-size: 8vh;
+    color: #ffffff;
+    padding-top: 7vh;
+}
+
+.thcontainer{
+    height: 30vh;
+    width: 80%;
+    display: flex;
+    margin-left: 3.5%;
+}
+.thcontainer div{
+    height: 23.5vh;
+    width: 25%;
+    background-color:  rgb(255, 255, 255);
+    margin-left: 17%;
+    margin-top: 5vh;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.thcontainer div a{
+    text-decoration: none;
+}
+
+.thcontainer div img{
+    height: 10vh;
+    margin-left: 29%;
+    margin-top: 6.5vh;
+}
+
+.thcontainer div h2{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 3vh;
+    color: #ffffff;
+    padding-top: 10vh;
+    
+}
+
+
+
+
+
+
+/*-------Main-tópicos históricos--------*/
+/*-------Main galeria--------*/
+
+main section.galeria {
+    height: 300vh;
+    width: 100%;
+    background-color: #ebe1d5;
+}
+main section.galeria h1{
+    text-align: center;
+    padding: 50px;
+    font-family:"Satisfy";
+    font-weight: normal;
+    font-size: 8vh;
+    color: rgb(59, 49, 39);
+}
+.componentes-da-galeria {
+    display: grid;
+    grid-template-columns: 18% 18% 18%;
+    row-gap: 5%;
+    column-gap: 15%;
+    margin-left:8%;
+    
+}
+.componentes-da-galeria div{
+    height: 55vh;
+    width: 160%; 
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px 10px rgba(175, 162, 162, 0.20);
+    
+}
+.componentes-da-galeria div img{
+    height: 38vh;
+    width: 95%;
+    margin-left: 2.8%;
+    margin-top: 2vh;
+    
+}
+
+.titulo h2{
+    font-family: "Libre Baskerville";
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1vh;
+}
+
+
+
+.galeria button{
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    border: none;
+    cursor: pointer;
+    margin-top: 46vh;
+    background-color: #ebe1d5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #5a493b;
+    box-shadow: 0px 4px 20px 10px rgba(131, 122, 114, 0.15);
+}
+
+
+
+/*-------Fim Main galeria--------*/
+/*-------começo Main emblemas--------*/
+main section.emblemas{
+    height: 110vh;
+    width: 100%;
+    background-color: #5f4e40;
+    padding-top: 25vh;
+}
+section.moldura{
+    grid-template-columns: 40% 40%; 
+    grid-template-rows: 40vh 40vh; 
+    display: grid;
+    margin-top: 20vh;
+    margin-left: 20%;
+}
+.emblemas-componentes h1{
+    text-align: center;
+    font-family:"Satisfy";
+    font-weight: lighter;
+    font-size: 6vh;
+    color: #ffffff;
+    margin-top: -20vh;
+    margin-bottom: -15vh;
+}
+
+.img1 img{
+    height: 38vh;
+    width: 80%;
+    z-index: 8;
+    
+}
+
+.img1 h2, .img1 p{
+   margin-left: 5%;    
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #ffffff; 
+   display: none;
+} 
+
+.img1 p,.img3 p{
+    font-size: 18px;
+    width: 70%;
+}
+
+.img2 img{
+    height: 38vh;
+    width: 100%;
+    z-index: 10;
+    margin-left: -16.5%;
+   
+}
+
+.img2 h2, .img2 p{
+    margin-left: -9%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    display: none;
+} 
+
+.img1 h2, .img2 h2, .img3 h2, .img4 h2{
+    font-size: 25px;
+    margin-top: -37vh;
+}
+.img2 p, .img4 p{
+    font-size: 18px; 
+    width: 60%;
+
+} 
+.img3 img{
+    height: 38vh;
+    width: 100%;
+    z-index: 10;
+    
+}
+.img3 h2, .img3 p{
+   z-index: 8;
+   margin-left: 5%;    
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #ffffff;
+   display: none;
+} 
+.img4 img{
+    height: 38vh;
+    width: 80%;
+    z-index: 8;
+    margin-left: 3.5%;
+    
+}
+
+.img4 h2, .img4 p{
+    margin-left: 8.5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    display: none;
+} 
+/*-------Fim Main emblemas--------*/
+/*-------começo Main contato--------*/
+.contato{
+    background-color: rgb(59, 49, 39);
+    height: 45vh;
+    width: 100%;
+    display: flex;
+}
+
+.logoC{
+    margin-left: 11%;
+    margin-top: 10vh;
+}
+
+.contato p{
+    width: 40%;
+}
+
+.contC{
+    margin-left: 7%;
+    margin-top: 10vh;
+}
+
+.contC p{
+    
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-top: 1vh;
+    text-decoration: none;
+    display: block;
+}
+
+.sobreC{
+    margin-left: 7%;
+    margin-top: 10vh;
+}
+
+.sobreC button{
+    border: none;
+    background-color: rgb(59, 49, 39);
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-top: 1vh;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    
+}
+.logoC h3{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+}
+
+.sobreC h2, .contC h2, .redeSC h2,.logoC h2{
+    color: #ffffff; 
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 450;
+   
+    
+}
+
+.sobreC a, .redeSC a {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-top: 1vh;
+    text-decoration: none;
+    display: block;
+}
+
+.redeSC{
+    margin-left: 7%;
+    margin-top: 10vh;
+}
+.redeSC div{
+    display: flex;
+    margin-left: -5%;
+    margin-top: 1vh;
+}
+
+.redeSC div a{
+    margin-left: 5%;
+}
+.redeSC a img{
+    height: 4vh;
+}
+/*-------Fim Main contato--------*/
+/*-------começo Main rodape--------*/
+
+main div.rodape img{
+     height: 10vh;
+     width: 70%;
+     margin-left: 16%;
+}
+/*-------Fim Main radape--------*/
+

@@ -1,0 +1,190 @@
+
+
+.contato{
+    margin-top: 280vh;
+}
+.rodape{
+    background-color: #ffffff;
+}
+
+
+
+
+
+.intro h2{
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    color: rgb(59, 49, 39);
+    margin-top: 2vh;
+}
+.intro p{
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vh;
+    color: rgb(59, 49, 39);
+    width: 60%;
+    margin-left: 20% ;
+    margin-top: 3vh;
+}
+
+
+
+
+.componentes-do-acervo{
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14%;
+    row-gap: 4%;
+    column-gap: 10%;
+    margin-left:7%;
+    margin-top: 28vh;
+}
+
+
+.componentes-do-acervo div{
+    height: 46vh;
+    width: 160%; 
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px 10px rgba(175, 162, 162, 0.20);
+    margin-top: -13vh;
+}
+
+
+.compA h2{
+    font-family: "Libre Baskerville";
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2.5vh;
+}
+ 
+
+.componentes-do-acervo div img{
+    height: 28vh;
+    width: 95%;
+    margin-left: 2.8%;
+    margin-top: 2vh;
+    
+}
+
+.arcevo{
+    background-color:  rgb(248, 242, 231);
+    height: 880vh;
+}
+
+main section.arcevo h1{
+    font-size: 10vh;
+    color: rgb(59, 49, 39);
+    padding-top: 20vh;
+    text-align: center;
+    font-family:"Satisfy";
+    font-weight: lighter;
+}
+
+button{
+  position: fixed;
+  margin-top: 10vh;
+  margin-left: 88%;
+  width: 5%;
+  border: none;
+  background-color: rgb(78, 65, 52);
+  border-radius: 10px 0px 0px 10px;
+  color: #ffffff;
+}
+
+
+#voltarT{
+    height: 8vh;
+    cursor: pointer;
+}
+
+.componentes-do-acervo div.imagemU img{
+    margin-left: 5.5%;
+    width:89%;
+}
+
+div.imagemUm img{
+    width: 80%;
+    
+    margin-left: 10%;
+}
+
+div.imagemDois img{
+    height: 33vh;
+}
+
+div.imagemTres img{
+    width: 88%;
+    margin-left: 6%;
+}
+.componentes-do-acervo div.imagemQ{
+    height: 38vh;
+}
+
+
+.componentes-do-acervo div.imagemQ img{
+    height: 25vh;
+}
+div.imagemQuatro img{
+    height: 33vh;
+}
+
+div.imagemCinco img{
+    height: 14vh;
+}
+
+.componentes-do-acervo div.imagemSeis img{
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+
+.componentes-do-acervo div.imagemSe img{
+    width: 65%;
+    margin-left: 17.5%;
+}
+
+div.imagemSete img{
+    margin-left: 6%;
+}
+
+div.imagemOito img{
+    width: 88%;
+    margin-left: 7%;
+}
+
+.componentes-do-acervo div img.imgCT {
+    margin-top: -0.5vh;
+}
+.componentes-do-acervo div.imagemUn img{
+   height: 30vh;
+}
+
+.componentes-do-acervo div.imagemUn{
+    height: 44vh;
+}
+
+
+
+
+/*-------começo Main contato--------*/
+.contatoA{
+    background-color: rgb(59, 49, 39);
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    margin-top: 300vh;
+}
+
+.contatoA p{
+    width: 40%;
+}
+
+
+/*-------Fim Main contato--------*/
+
+
