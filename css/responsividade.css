@@ -5,8 +5,6 @@
         width: 100%;
         background-position: center;
     }
-
-
 }
 @media (max-width: 999px){
     .nav-list{
@@ -37,7 +35,6 @@
     }
    
 }
-
 @media (max-width: 586px){
     .logo {
         display: flex;
@@ -99,12 +96,9 @@
         display: grid;
         grid-template-columns: 20% 20%;
         column-gap: 15vh;
-        margin-left: 2%;
         margin-top: 4vh;
     }
 }
-/*-------Main-tópicos históricos--------*/
-/*-------Main galeria--------*/
 @media (max-width: 500px){
     .menu-principal{
         height: 10vh;
@@ -120,7 +114,6 @@
         height: 30vh;
         width: 220%; 
         margin-top: -2.5vh;
-        margin-left: 20%;
     }
     .componentes-da-galeria div img{
         height: 19vh;
@@ -162,11 +155,6 @@
         height: 3.5vh;
     }
 }
-
-
-
-
-/*-------Fim Main galeria--------*/
 /*-------começo Main emblemas--------*/
 @media (max-width: 1160px){
     section.moldura{
@@ -200,7 +188,6 @@
         height: 70vh;
     }
 }
-/*-------Fim Main emblemas--------*/
 /*-------começo Main rodape--------*/
 @media (max-width: 662px){
     body{
@@ -243,7 +230,6 @@
 }
 /*------Responsividade história------*/
 @media (max-width: 662px){
-
     .hist, .container{
         height: 2440vh;
     }
@@ -254,76 +240,57 @@
         height: 10vh;
         margin-left: 10%;
     }
-
     .imgDois{
         height: 25vh;
         margin-left: 16%;
     }
-
     .imgTres{
         height: 25vh;
         margin-left: 16%;
     }
-
     .imgQuatro, .imgQuinta{
-       
         margin-left: 16%;
     }
-
     .imgQuatro{
         height: 26.7vh;
     }
- 
     .imgQuinta{
         height: 25.5vh;
     }
-
     .imgSeis{
         height: 25.5vh;
     }
-
     .imgSete{
         height: 25.5vh;
         margin-left: 37%;
     }
-
     .imgOito{
         height: 23vh;
         margin-left: 7%;
     }
- 
-
     .imgNove{
         height: 24vh;
         margin-left: 14%;
     }
-
     .imgDez{
         height: 23vh;
         width: 66%;
         margin-left: 14%;
     }
-
     .imgDPrimeira{
         margin-left: 16%;
     }
-
     .imgDPrimeira, .imgDSegunda{
         height: 13vh;
         width: 32.5%;
-       
     }
-
     .imgDTerceira{
         height: 23vh;
         margin-left: 20%;
     }
-
-
     .imgDQuarta, .imgDQuinta, .imgDSexta, .imgDSetima{
         height: 10vh;
     }
-
     .imgDOitava, .imgDNona{
         height: 23vh;
         margin-left: 17%;
@@ -332,19 +299,15 @@
         height: 23vh;
         margin-left: 11%;
     }
-
     .img20{
         height: 25vh;
         margin-left: 16%;
     }
-
     .img21{
         height: 14.5vh;
         margin-left: 4%;
     }
-
 }
-
 /*--------RESPONSIVIDADE CONTATO -----------*/
 @media (max-width: 662px){
 
@@ -356,10 +319,8 @@
         height: 62vh;
     }
 }
-
 /*--------RESPONSIVIDADE ARCEVO-----------*/
 @media (max-width: 662px){
-
     .componentes-do-acervo{
         display: grid;
         grid-template-columns: 56%;
@@ -367,8 +328,6 @@
         margin-left:4%;
         margin-top: 44vh;
     }
-
-    
     .componentes-do-acervo div{
         height: 55vh;
         width: 170%; 
@@ -376,69 +335,51 @@
         box-shadow: 0px 4px 20px 10px rgba(175, 162, 162, 0.20);
         margin-top: -38vh;
     }
-
     .componentes-do-acervo div img{
         height: 37vh;
         width: 95%;
         margin-left: 2.8%;
         margin-top: 2vh;
-        
     }
-
     .arcevo{
         height: 3580vh;
     }
-
-
     .contatoA{
         margin-top: 2420vh;
         height: 100vh;
         width: 100%;
         display: block;
         text-align: center ;
-        
     }
-
     div.imagemUm img{
         width: 80%;
         margin-left: 10%;
     }
-
     div.imagemDois img{
         height: 33vh;
     }
-
     div.imagemTres img{
         width: 88%;
         margin-left: 6%;
     }
-
     div.imagemQuatro img{
         height: 33vh;
     }
-
     div.imagemCinco img{
         height: 20vh;
     }
-
     div.imagemSeis img{
         width: 70%;
         margin-left: 15%;
     }
-
     div.imagemSete img{
         margin-left: 6%;
     }
-
     div.imagemOito img{
         width: 88%;
         margin-left: 7%;
     }
-
-     
-
 }
-
 /*------Responsividades topicos------*/
 @media (max-width: 662px){
     .containerParq{
@@ -485,62 +426,48 @@
     }
 
 }
-
 /*--------Responsividade -----------*/
 @media (max-width: 662px){
-    
     .res{
       width: 80%;
       height: 180vh;
     
     }
-
     .ep .eq .res{
         display: block;  margin-left: 19%;
     }
-
     .res div h4{
         margin-left: -25%;
         font-size: 30px;
     }
-
     .res div p{
         margin-top: 2vh;
         margin-left: 1.5%;
         font-size: 15px;
     }
-
     .mar{
         margin-top: 30vh;
     }
-
     .botton h1{
-       
         margin-top: 120vh;
     }
-
     .rodap img{
         height: 5vh;
         width: 80%;
         margin-left: 9%;
     }
-
     .rodape{
         width: 100%;
     }
 }
-
 @media (max-width: 662px){
-    
     .mare{
        margin-top: 280vh;
     }
     .AVP{
         margin-top: 220vh;
     }
-
     .PDC{
         margin-top: 160vh;
     }
-    
 }
