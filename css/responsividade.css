@@ -11,7 +11,7 @@
 @media (max-width: 999px){
     .nav-list{
         position: absolute;
-        top: 16.5vh;
+        top: 10vh;
         margin-right: 0px;
         width: 70%;
         height: 70vh;
@@ -26,9 +26,8 @@
     }
     .mobile-menu{
         display: block;
-        margin-top: -7.8vh;
         float: right;
-        margin-right: 6%;
+        margin-right: 10%;
     }
     .nav-list a{
         font-weight: bold;
@@ -68,13 +67,10 @@
 }
 /*----------menu e imagem inicial----------*/
 /*-------Main-sobre o projeto--------*/
-
 @media (max-width: 662px){
     main section.sobre-projeto{
         height: 60vh;
     }
-
-    
     main section.sobre-projeto h1{
         font-size: 40px;
         padding: 25px;
@@ -93,46 +89,12 @@
         margin-top: 4vh;
         background-color: #F2E2CE;
     }
-}
-/*-------Fim Main-sobre o projeto--------*/
-/*-------Main-tópicos históricos--------*/
-@media (max-width: 662px){
+
     main section.topicos-historicos{
         height: 44vh;
         width: 100%;
-    }
-    .topicos-historicos h1{
-        font-size: 6vh;
-        padding-top: 4vh;
-
-    }
-    .thcontainer div img{
-        height: 7.5vh;
-        margin-top: 2.2vh;
-        margin-left: 20%;
-    }
-    .thcontainer{
-         margin-left: 8.5%;
-    }
-    .thcontainer div{
-        height: 12.5vh;
-        width: 140%;
-       margin-left: 5%;
-        margin-top: 26px;
-    }
+    }  
     
-    .thcontainer div h2{
-        font-size: 2vh;
-        padding-top: 4vh;
-    }
-
-    
-    
-
-}
-/*-------Main-tópicos históricos--------*/
-/*-------Main galeria--------*/
-@media (max-width: 500px){
     .componentes-da-galeria {
         display: grid;
         grid-template-columns: 20% 20%;
@@ -140,11 +102,16 @@
         margin-left: 2%;
         margin-top: 4vh;
     }
-
+}
+/*-------Main-tópicos históricos--------*/
+/*-------Main galeria--------*/
+@media (max-width: 500px){
+    .menu-principal{
+        height: 10vh;
+    }
     #galeria{
         height: 240vh;
     }
-
     main section.galeria {
         width: 100%;
         background-color: rgb(248, 242, 231);
@@ -169,7 +136,6 @@
         height: 4vh;
         width: 8%;
     }
-
     .titulo h2{
         font-size: 7.5px;
         padding-top: 1vh;
@@ -177,7 +143,24 @@
     .galeria button{
         margin-top: 45vh; 
     }
-    
+
+    .topicos-historicos h1 { 
+        font-size: 4vh;
+    }
+
+    .topicos-historicos .thcontainer div { 
+        height: 20vh;
+    }
+    .topicos-historicos .thcontainer div a{
+        height: 10vh;
+        width: 10vh;
+    }
+    .topicos-historicos .thcontainer div h2{
+        font-size: 1.5vh;
+    }
+    .topicos-historicos .thcontainer div a img{
+        height: 3.5vh;
+    }
 }
 
 
@@ -258,12 +241,6 @@
         margin-left: 26%;
     }
 }
-/*-------Fim Main radape--------*/
-
-
-
-
-
 /*------Responsividade história------*/
 @media (max-width: 662px){
 
@@ -368,8 +345,6 @@
 
 }
 
-
-
 /*--------RESPONSIVIDADE CONTATO -----------*/
 @media (max-width: 662px){
 
@@ -382,10 +357,7 @@
     }
 }
 
-
-
 /*--------RESPONSIVIDADE ARCEVO-----------*/
-
 @media (max-width: 662px){
 
     .componentes-do-acervo{
@@ -467,10 +439,7 @@
 
 }
 
-
 /*------Responsividades topicos------*/
-
-
 @media (max-width: 662px){
     .containerParq{
         display: grid;
@@ -517,9 +486,7 @@
 
 }
 
-
 /*--------Responsividade -----------*/
-
 @media (max-width: 662px){
     
     .res{
@@ -562,12 +529,6 @@
         width: 100%;
     }
 }
-
-
-
-
-
-
 
 @media (max-width: 662px){
     
