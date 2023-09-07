@@ -63,8 +63,8 @@
  
 
 .componentes-do-acervo div img{
-    height: 28vh;
-    width: 95%;
+    height: auto;
+    width: 20vw;
     margin-left: 2.8%;
     margin-top: 2vh;
     
